@@ -1,0 +1,134 @@
+#activity2-view2 {
+    position: absolute !important;
+    top: 0px;
+    left: 0px;
+    width: 1000px;
+    height: 580px;
+    background: url('../images/Zoomed_Underhood_with battery_Charger_2_KURT.png') 0 0 / 100% 100% no-repeat;
+}
+
+.PowerSupplyBlock {
+    position: absolute;
+    top: 134px;
+    /* transition: all 7s ease; */
+    background: url('../images/battery_charger_main_menu.png') no-repeat;
+    background-size: 100% 100%;
+    z-index: 100;
+    /* -webkit-transform: rotate(-3deg); */
+    width: 425px;
+    left: 198px;
+    height: 331px;
+}
+
+.PowerSupplyResult{
+    position: absolute;
+    top: 134px;
+    /* transition: all 7s ease; */
+    background: url('../images/battery_charger_power_supply_KURT.png') no-repeat;
+    background-size: 100% 100%;
+    z-index: 100;
+    /* -webkit-transform: rotate(-3deg); */
+    width: 425px;
+    left: 198px;
+    height: 331px;
+
+}
+
+#PwrSupply {
+    width: 120px;
+    height: 106px;
+    left: 285px;
+    top: 120px;
+    position: absolute;
+    z-index: 10;
+    /* cursor: pointer; */
+    transition: all 7s ease;
+}
+
+#highlight1 {
+    width: 120px;
+    height: 105px;
+    left: 251px;
+    top: 113px;
+}
+#charGing {
+    width: 113px;
+    height: 97px;
+    left: 20px;
+    top: 120px;
+    position: absolute;
+    z-index: 10;
+    /* cursor: pointer; */
+    transition: all 7s ease;
+}
+
+#arrows {
+    width: 112px;
+    height: 92px;
+    left: 162px;
+    top: 223px;
+    position: absolute;
+    z-index: 10;
+    /* cursor: pointer; */
+    transition: all 7s ease;
+    /* background-color: pink; */
+}
+
+#batterySupply {
+    top: 105px;
+    left: 164px;
+    width: 112px;
+    height: 81px;
+    position: absolute;
+    z-index: 10;
+    /* cursor: pointer; */
+    transition: all 7s ease;
+}
+
+.wire {
+    position: absolute !important;
+    top: 278px;
+    left: 500px;
+    width: 1000px;
+    height: 580px;
+    z-index: 2;
+}
+
+
+#powerSupplyBtn {
+    position: absolute;
+    top: 145px;
+    left: 434px;
+    width: 40px;
+    height: 40px;
+}
+
+.positive-wire {
+    position: absolute !important;
+    top: 133px;
+    left: -600px;
+    width: 1000px;
+    height: 580px;
+    z-index: 1;
+}
+
+.negative-wire {
+    position: absolute !important;
+    top: 96px;
+    left: -591px;
+    width: 1000px;
+    height: 580px;
+    z-index: 1;
+}
+
+.highlight_1 {
+    animation-name: blink1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink1 {  
+    0% { border: 3px solid yellow;  }
+    50% { border: 3px solid transparent; }
+    100% { border: 3px solid yellow; }

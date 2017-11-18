@@ -1,0 +1,500 @@
+#activity2-view8 {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 1000px;
+    height: 580px;
+    background: url(../keyBodyBg_v1.png);
+    background-size: 100% 100%;
+}
+
+#activityContainer {
+    width: 954px;
+    height: 484px;
+    position: absolute;
+}
+
+#col1 {    
+    position: absolute;
+    left: 0;
+    right: 20%;
+    top: 20px;
+    bottom: 0; 
+    padding-top: 20px;    
+}
+
+#fanDial{
+    background-image: url(dial.png);
+/*    position: absolute;
+    left:50px;
+    top:150px;*/
+
+
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 210px;
+    left: 30px;
+    background-size: cover;
+}
+
+#glowEffect1{
+    position: absolute;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    top: 55px;
+    left: 68px;
+}
+
+#glowEffect2{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 55px;
+    left: 170px;
+}
+
+
+
+.highlight {
+	background: transparent;
+	border-radius: 40px;
+	border: 3px solid yellow;
+	box-shadow: 0px 0px 27px #FFEB3B;
+
+	
+	-webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#airFlow{
+    background-image: url(wind_arrows.png);
+    z-index: 5000;
+    position: absolute;
+
+    width: 350px;
+    height: 200px;
+    background-size: contain;
+
+        top: 130px;
+    left: 175px;
+}
+
+#startKey {
+    /*position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 160px;
+    height: 160px;
+    font-family: Roboto-Regular;
+    font-size: 12px;
+    background: url(ignition_key_switch_off.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+        z-index:600;*/
+
+
+
+
+        position: absolute;
+	top: 130px;
+	left: 422px;
+	width: 290px;
+	height: 290px;
+	background: url(ignition_key_switch_on.png);
+    background-size: 100% 100%;
+}
+
+#ostartKey {
+     /*position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 160px;
+    height: 160px;
+    font-family: Roboto-Regular;
+    font-size: 12px;
+    background: url(ignition_key_switch_on.png);
+    background-size: 100% 100%;
+    border-radius: 50%;*/
+
+     position: absolute;
+	top: 130px;
+	left: 422px;
+	width: 290px;
+	height: 290px;
+	background: url(ignition_key_switch_off.png);
+    background-size: 100% 100%;
+}
+
+
+#fanObject {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    width: 160px;
+    height: 160px;
+    font-family: Roboto-Regular;
+    font-size: 12px;
+    background: url(dial.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+
+#igRtHand {
+    position: absolute;
+    width: 49%;
+    height: 13%;
+    top: 42%;
+    left: 48px;
+    opacity: 0.5;
+    z-index: 11;
+}
+
+#oigRtHand {
+    position: absolute;
+    width: 49%;
+    height: 13%;
+    top: 42%;
+    left: 48px;
+    opacity: 0.5;
+    z-index: 11;
+}
+
+#fanDial {
+    position: absolute;
+    width: 49%;
+    height: 13%;
+    top: 42%;
+    left: 48px;
+    opacity: 0.5;
+    z-index: 11;
+}
+
+
+
+#voltmeter , #dummyVoltmeter{
+    position: absolute !important;
+    top: 200px;
+    left: 25px;
+    width: 150px;
+    height: 150px;
+    background: url(dial.png);
+    background-size: 100% 100%;
+    display:none;
+
+}
+#dummyVoltmeter {
+	z-index: 3;
+	background: none;
+	cursor: pointer;
+}
+
+
+.tempGauge{
+         position: absolute;
+    height: 140px;
+    width: 200px;
+    top: 250px;
+    left: 690px;
+}
+
+#tuner, #dummyTuner {
+    position: absolute !important;
+    top: 35px !important;
+    left: 37px !important;
+    width: 80px;
+    height: 80px;
+    background: url(tuner.png);
+    background-size: 100% 100%;
+    z-index: 1;
+    cursor: pointer;
+    -webkit-transform: rotate(295deg);
+    -moz-transform: rotate(295deg);
+    -ms-transform: rotate(295deg);
+    transform: rotate(295deg);
+}
+#dummyTuner {
+	background: none;
+}
+
+
+
+#keyRotate {
+    /*position: absolute !important;
+    left: 0px !important;
+    top: 0px !important;
+    width: 100%;
+    height: 100%;
+    background: url(key_use.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-position: 33px -21px;
+    background-repeat: no-repeat;
+*/
+
+
+    position: absolute !important;
+	top: 19px !important;
+	left: -4px !important;
+    width: 100%;
+    height: 100%;
+    background: url(key_use.png) 33px -21px / 90% 60% no-repeat;
+    border-radius: 50%;
+    background-position: 35px 31px;  /* 33px  -21px */
+    background-repeat: no-repeat;
+    -webkit-transform: rotate(114deg);
+    -moz-transform: rotate(114deg);
+    -ms-transform: rotate(114deg);
+	transform: rotate(114deg);
+
+}
+
+#okeyRotate {
+    position: absolute !important;
+	top: 19px !important;
+	left: -4px !important;
+    width: 100%;
+    height: 100%;
+    background: url(key_use.png) 33px -21px / 90% 60% no-repeat;
+    border-radius: 50%;
+    background-position: 35px 31px;  /* 33px  -21px */
+    background-repeat: no-repeat;
+    -webkit-transform: rotate(58deg);
+    -moz-transform: rotate(58deg);
+    -ms-transform: rotate(58deg);
+	transform: rotate(58deg);
+
+}
+
+#fanRotate {
+    position: absolute !important;
+    left: 0px !important;
+    top: 0px !important;
+    width: 100%;
+    height: 100%;
+    background: url(dial_knob.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    
+    background-repeat: no-repeat;
+}
+
+#ignitionBtn1{
+    /*background-color: red;*/
+    height: 40px;
+    width: 45px;
+    position: absolute;
+    top: 62px;
+    left: 75px;
+    z-index:500;
+}
+
+#ignitionBtn2{
+    width: 35px;
+    height: 25px;
+    position: absolute;
+    top: 62px;
+    left: 170px;
+    z-index: 500;
+}
+
+#ignitionBtn3{
+    width: 35px;
+    height: 50px;
+    position: absolute;
+    top: 85px;
+    left: 200px;
+    z-index: 500;
+}
+
+#ignitionBtn4, #oignitionBtn4{
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 50px;
+    left: 130px;
+    z-index:500;
+}
+
+
+
+.ignition {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.dial {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+}
+
+.knob {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.dial-hotspot {
+    width: 28px;
+    height: 28px;    
+    border-radius: 14px;
+    z-index: 5;
+    position: absolute;
+    cursor: pointer;
+}
+
+#dialPos_off {
+    top: 262;
+    left: 30px;    
+}
+
+#dialPos_1 {
+    top: 230;
+    left: 38px;    
+}
+
+#dialPos_2 {
+    top: 210;
+    left: 65px;    
+}
+
+#dialPos_3 {
+    top: 212;
+    left: 99px;    
+}
+
+#dialPos_4 {
+    top: 233;
+    left: 122px;    
+}
+
+#dialPos_5 {
+    top: 263;
+    left: 129px;    
+}
+
+#col2 {    
+    position: absolute;
+    left: 20%;
+    right: 0;
+    top: 20px;
+    bottom: 0; 
+}
+
+.evap {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    left: 250px;  
+}
+
+#blowerImage{
+    position: absolute;
+    width: 150px; /* 150px */ /* 115px */
+    background-image: url(blower_motor_with_fan_sprite.png);
+    /*background-color: red;*/
+    display: block;
+    background-size: 600px 200px;
+    height: 200px;
+    top: 0px;
+    left: 75px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+
+}
+
+#blowerText{
+    float: left;
+    font-size: large;
+    padding-top: 18px;
+    position: absolute;
+    top: 125px;
+    left: 30px;
+}
+#evaporator{
+    position: absolute;
+    top: 330px;
+    left: 330px;
+}
+
+#evaporatorText{
+    float: left;
+    padding-top: 13px;
+    font-size: large;
+    top: -3px;
+    left: 35px;
+    position: absolute;
+}
+
+#blowerArrow{
+    float: left;
+    position: absolute;
+    top: 135px;
+    left: 90px;
+    font-size: xx-large;
+}
+
+#refrigerant{
+        position: absolute;
+    left: 420px;
+    top: 0px;
+    font-size: large;
+}
+
+#airInTemp {
+    position: absolute;
+    font-family: "Roboto-Medium";
+	font-size: 28px;
+    top: 110px;
+    left: 20px;
+}
+
+#airOutTemp {
+    position: absolute;    
+    top: 320px;
+    left: 570px;
+}
+
+#airOutTempText {    
+    position: absolute; 
+    font-family: "LiquidCrystal-Normal";
+    font-size: 40px; 
+    left: -5px;
+    top: -19px;   
+}

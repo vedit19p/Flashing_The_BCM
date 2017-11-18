@@ -1,0 +1,22 @@
+#wholeContainer {
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width:1000px !important;
+    height: 580px !important;
+}
+
+#contentContainer {
+    top: 0 !important;
+    left: 0 !important;
+}
+
+#largeContainer {
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 580px;
+}

@@ -1,0 +1,176 @@
+WEBVTT
+
+00:00:05.800 --> 00:00:09.500
+Understanding the equipment flashing the BCM
+
+00:00:11.433 --> 00:00:12.499
+Safety first:
+
+00:00:12.933 --> 00:00:14.099
+When working in the shop,
+
+00:00:14.233 --> 00:00:16.299
+always follow the safety guidelines
+
+00:00:16.300 --> 00:00:18.066
+provided in service information,
+
+00:00:18.266 --> 00:00:19.766
+tool operation manuals,
+
+00:00:19.933 --> 00:00:21.499
+and other technical literature.
+
+00:00:22.533 --> 00:00:23.966
+To protect yourself from injury,
+
+00:00:24.233 --> 00:00:27.466
+wear personal protective equipment (PPE),
+
+00:00:27.833 --> 00:00:30.599
+dress appropriately, work professionally,
+
+00:00:30.766 --> 00:00:32.866
+and correctly handle tools and equipment.
+
+00:00:34.133 --> 00:00:36.966
+Flashing or programming means to update
+
+00:00:36.966 --> 00:00:38.699
+the software in a module.
+
+00:00:39.466 --> 00:00:41.432
+Programming is similar to applying software
+
+00:00:41.433 --> 00:00:44.299
+updates on a computer or a gaming console.
+
+00:00:45.533 --> 00:00:47.933
+A module may need flashed to update
+
+00:00:47.933 --> 00:00:48.766
+the software.
+
+00:00:49.366 --> 00:00:52.066
+This is common to fix software-related issues
+
+00:00:52.066 --> 00:00:53.532
+that arise over time.
+
+00:00:54.533 --> 00:00:56.266
+When a new module is installed,
+
+00:00:56.266 --> 00:00:57.766
+it has to be programmed.
+
+00:00:58.200 --> 00:01:01.033
+Most vehicles program the VIN into the module,
+
+00:01:01.266 --> 00:01:03.199
+which can only be done once.
+
+00:01:03.800 --> 00:01:05.833
+This prevents removing the module and
+
+00:01:05.833 --> 00:01:08.099
+reinstalling it into a different vehicle.
+
+00:01:09.133 --> 00:01:12.366
+To flash a BCM, a factory-level scan tool
+
+00:01:12.366 --> 00:01:13.666
+or a pass-through device
+
+00:01:13.666 --> 00:01:15.132
+is needed to connect the vehicle.
+
+00:01:16.433 --> 00:01:18.433
+A subscription to the vehicle manufacturer’s
+
+00:01:18.433 --> 00:01:20.833
+service information or programming system
+
+00:01:20.833 --> 00:01:21.733
+is also required.
+
+00:01:22.333 --> 00:01:24.166
+Many aftermarket companies sell
+
+00:01:24.166 --> 00:01:26.699
+programming tools called pass-through devices.
+
+00:01:27.533 --> 00:01:31.466
+These devices must meet the SAE J2534
+
+00:01:31.466 --> 00:01:33.032
+standard for programming.
+
+00:01:33.666 --> 00:01:35.999
+This allow you to connect to the vehicle and
+
+00:01:36.000 --> 00:01:37.233
+program modules
+
+00:01:37.233 --> 00:01:39.166
+but a subscription to the factory service
+
+00:01:39.166 --> 00:01:40.832
+information is still required.
+
+00:01:41.666 --> 00:01:43.799
+It is essential that the pass-through device
+
+00:01:43.800 --> 00:01:46.566
+or scan tool is equipped with the latest software
+
+00:01:46.566 --> 00:01:48.666
+before performing service programming.
+
+00:01:50.166 --> 00:01:52.399
+Read and follow ALL precautions and
+
+00:01:52.400 --> 00:01:54.566
+procedures when programming a module.
+
+00:01:55.033 --> 00:01:57.066
+Failure to follow the directions can result
+
+00:01:57.066 --> 00:01:59.999
+in a programming failure and a useless module.
+
+00:02:00.866 --> 00:02:02.066
+Stable battery voltage
+
+00:02:02.066 --> 00:02:03.599
+is critical during programming
+
+00:02:04.200 --> 00:02:06.366
+Any fluctuation, spiking,
+
+00:02:06.500 --> 00:02:07.466
+over voltage,
+
+00:02:07.566 --> 00:02:09.999
+or loss of voltage will interrupt programming.
+
+00:02:10.633 --> 00:02:13.333
+If the recommended battery tool is not available,
+
+00:02:13.433 --> 00:02:15.566
+DO NOT connect a battery charger,
+
+00:02:16.033 --> 00:02:16.566
+Insted
+
+00:02:16.933 --> 00:02:19.666
+connect a fully charged 12 V jumper or
+
+00:02:19.666 --> 00:02:21.932
+booster pack disconnected from the
+
+00:02:21.933 --> 00:02:23.499
+AC voltage supply.
+
+00:02:24.233 --> 00:02:27.399
+Enter the simulation to practice flashing a BCM.
+

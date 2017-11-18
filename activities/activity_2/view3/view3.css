@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@keyframes blink1 {  
+    0% { border: 3px solid yellow;  }
+    50% { border: 3px solid transparent; }
+    100% { border: 3px solid yellow; }
+}
+#activity2-view3 {
+    position: absolute !important;
+    top: 2px;
+    left: 0px;
+    width: 1000px;
+    height: 580px;
+    background: url(../dashboard_BCM_connectors_v1.png);
+    background-size: 100% 100%;
+}
+#toolTray > #toolTrayContent > #contentInner > .tools {
+	width: 120px;
+    height: 100px;
+    margin: 0 10px 15px 20px !important;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+#toolTray > #toolTrayContent > #contentInner > .tools.highlight {
+	margin-left: 10px !important;
+	padding: 0 10px;
+}
+#toolTray > #toolTrayHeader > #scrollUp {
+    position: relative;
+    top: 10px;
+	background: url(../arrow_up_disabled.png) no-repeat;
+}
+#toolTray > #toolTrayFooter > #scrollDown {
+	position: relative;
+    top: -10px;
+    background: url(../arrow_down_disabled.png) no-repeat;
+}
+#toolTray > #toolTrayContent > #contentInner > .tools:nth-child(1) {
+	margin-top: 20px !important;
+	background: url(../tool_4.png) top center no-repeat !important;
+}
+#toolTray > #toolTrayContent > #contentInner > .tools:nth-child(2) {
+	margin-top: -6px !important;
+    background: url(../tool_5.png) top center no-repeat !important;
+}
+#toolTray > #toolTrayContent > #contentInner > .tools:nth-child(3) {
+    background: url(../tool_7_v2.png) top center no-repeat !important;
+}
+#toolTray > #toolTrayContent > #contentInner > .tools:nth-child(4),
+#toolTray > #toolTrayContent > #contentInner > .tools:nth-child(5),
+#toolTray > #toolTrayContent > #contentInner > .tools:nth-child(6),
+#toolTray > #toolTrayContent > #contentInner > .tools:nth-child(7) {
+	display: none;
+}
+#scannerContainer {
+	position: absolute;
+}
+#dlcConnector {
+	position: absolute;
+    top: 250px;
+    left: 290px;
+    width: 220px;
+    height: 120px;
+    background: transparent;
+}
+#dlcConnectorHighlight {
+	position: absolute;
+    top: 270px;
+    left: 270px;
+    width: 130px;
+    height: 50px;
+}
+#activity2-view3 .lead {
+	display: none;
+    position: absolute;
+    top: 170px;
+    left: 440px;
+	width: 550px;
+    height: 340px;
+    background: url(../scanToolDLC_v3.png);
+    background-size: 100% 100% !important;
+    z-index: 5;
+    cursor: pointer;
+}
+
+#activity2-view3 #scanToolConnector {
+    position: relative;
+    margin-top: -72px;
+    margin-left: 232px;
+	width: 86px;
+    height: 82px;
+    background: url(../scan_tool_connector.png);
+    background-size: 100% 100% !important;
+    z-index: 7;
+}
+
+#activity2-view3 .scanner-button {
+	position: relative;
+	width: 42px;
+	height: 42px;
+	z-index: 5;
+	cursor: pointer;
+	background: transparent !important;
+}
+#activity2-view3 #button_1 {
+	margin-top: 55px;
+	margin-left: 58px;
+}
+#activity2-view3 #button_2 {
+	margin-top: 38px;
+	margin-left: 60px;
+}
+#activity2-view3 #button_3 {
+	margin-top: 11px;
+	margin-left: 60px;
+}
+#activity2-view3 #button_4 {
+	width: 75px;
+	height: 75px;
+	margin-top: -182px;
+    margin-left: 439px;
+}
+#activity2-view3 #button_5 {
+	width: 60px;
+	height: 32px;
+	margin-top: 21px;
+    margin-left: 446px;
+}
+#activity2-view3 #button_6 {
+	width: 60px;
+	height: 32px;
+	margin-top: 15px;
+    margin-left: 446px;
+}
+#activity2-view3 .usb-logo {
+    position: absolute;
+    top: 287px;
+    left: 462px;
+    width: 40px;
+    height: 25px;
+    background: url(../usb-logo.png);
+    background-size: 100% 100%;
+    z-index: 2;
+    cursor: pointer;
+}
+.scannerScreen {		
+    display: none;
+    position: absolute;
+    top: 43px;
+    left: 114px;
+    width: 319px;
+    height: 178px;
+    padding-top: 50px;   
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+	text-transform: uppercase;
+    background-color: #280aff;
+    opacity: 1;
+    z-index: 12;
+}
+#activity2-view3 .pin {
+	display: none;
+    position: absolute;
+	top: 360px;
+    left: 340px;
+	width: 110px;
+    height: 120px;
+	background: url(../dlc_connector_v2.png);
+    background-size: 100% 100%;
+    z-index: 4;
+	cursor: pointer;
+}
+#activity2-view3 .wire {
+	display: none;
+    position: absolute;
+    top: 27px;
+    left: 106px;
+    width: 940px;
+    height: 545px;
+    z-index: 3;
+}
+.highlight {
+    animation-name: blink1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#activity2-view3 #scannerPreview {
+	display: none;
+    position: absolute;
+    top: 170px;
+    left: 440px;
+	width: 550px;
+    height: 340px;
+    background: url(../scanToolDLC_v3.png);
+    background-size: 100% 100% !important;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.powerButtGreenAdd{
+    margin-top: 54px !important;
+    margin-left: 60px !important;
+    height: 61px !important;
+    background: url(../images/powButGreen.png) !important;
+    z-index: 100 !important;
+    background-size: 45px 49px !important;
+    background-repeat: no-repeat !important;
+}

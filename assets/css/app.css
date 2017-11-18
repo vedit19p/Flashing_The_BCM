@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #fff;
+}
+
+#mainWrapper {
+	position: absolute !important;
+	top: 0px !important;
+	left: 0px !important;
+	right: 0px !important;
+	margin: auto !important;
+	width: 1000px;
+	height: 625px;
+	background: url(../images/series/bg.jpg);
+	overflow: hidden;
+	/*
+	transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg); */
+}
+
+#menuLightbox {
+	position: absolute;
+	top: 45px;
+	left: 0px;
+	width: 1000px;
+	height: 580px;
+	background:rgba(0,0,0,0.5);
+	display: none;
+    z-index: 1001;
+}
+
+.button {
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	color:#fff;
+	background: #23a1ce;
+	text-align: center;
+	cursor: pointer;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+	font-family: Roboto-Medium;	
+}
+
+.tickMark {
+	position: absolute;
+    height: 20px;
+    width: 20px;
+    border: 0px solid;
+    left: -52px;
+    top: -1px;
+	background-image: url(../images/icons/radio.png);
+	display: none;
+}
+
+.xMark {	
+    height: 20px;
+    width: 20px;
+    border: 0px solid;
+    float: left;    
+	background-image: url(../images/icons/cross.png);
+	display: none;
+}
+
+.radioBtn {    
+    float: left;
+	width: 16px;
+    height: 16px;
+	margin-right: 10px;
+    border-radius: 50px;
+    background-image: url(../images/icons/radio.png);
+	cursor: pointer;
+}
+
+.radioBtnSelected {	
+    background-image: url(../images/icons/radio-selected.png);
+}
+
+
+/* Page Header ******************************************************/
+#pageHeader {
+	position: absolute;
+	top: 0px !important;
+	left: 0px !important;
+	width: 1000px;
+	height: 55px;
+	background: white;
+	display: block;
+	z-index: 100;
+	margin-bottom: 10px;
+}
+
+#pageHeader .series {
+	font-family: RobotoSlab-Bold;
+	position: absolute;
+	float: left;
+	color: #D22027;
+	font-size: 19px;
+	line-height: 44px;
+	top: 5px;
+	left: 40px;
+}
+
+#pageHeader .module-activity {
+	font-family: Roboto-Medium;
+	color: #000;
+	font-size: 18px;
+	position: absolute;
+	float: left;
+	top: 18px;
+	left: 290px;
+	margin-bottom: 10px;
+}
+
+#headerLogo {
+	position: absolute;
+	float: right;
+	top:2px;
+	right: 40px;
+	width: 100px;
+	height: 45px;
+	background: url(../images/series/hlogo.png);
+	display: block;
+}
+/*#gameContainer {*/
+	/*position:absolute;*/
+	/*width:1000px;*/
+	/*height:580px;*/
+	/*background:rgba(255,255,255,0.5);*/
+	/*top:45px !important;*/
+	/*left:0px !important;*/
+	/*display:none;*/
+	/*z-index: 2;*/
+	/*background: #fff;*/
+	/*background:url(../images/activity/act_1/car.jpg);*/
+/*}*/

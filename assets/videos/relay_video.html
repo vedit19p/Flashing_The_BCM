@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<head>
+		<title>Video</title> 
+        <link href="../js/vendor/plug-ins/video-js/video-js.css" rel="stylesheet" type="text/css">
+        <link href="../js/vendor/plug-ins/video-js/lib/videojs-captions-toggle.css" rel="stylesheet" type="text/css">         
+ 		<style>
+			body {
+				margin:0;
+				padding:0;
+			}
+		</style>
+	</head>    
+	<body>
+		<div id="container">
+			<video id="videoPlayer" class="video-js vjs-default-skin" controls preload="none" width="760" height="404" poster="../images/common/uequipment.png" data-setup="{}">           		
+				<source id="mp4Vid" src="relay_360.mp4" type="video/mp4">
+				<source id="ogvVid" src="relay_360.ogv" type="video/ogg">
+				<track id="capVid" kind="captions" src="relay_360.captions.vtt" srclang="en" label="English"></track>
+                <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+            </video> 
+		</div>
+
+		<script type="text/javascript" src="../js/vendor/plug-ins/video-js/video.js"></script>
+        <script type="text/javascript" src="../js/vendor/plug-ins/video-js/lib/videojs-captions-toggle.js"></script>
+		<!--<script type="text/javascript" src="video.js"></script>-->
+	</body>
+</html>

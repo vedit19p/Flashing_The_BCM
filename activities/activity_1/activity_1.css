@@ -1,0 +1,216 @@
+#partsDepartmentIcon, #toolTrayIcon, #serviceInfoIcon {
+	display: none;
+}
+
+#contentContainer{
+    text-align:center;
+}
+
+#divActivity1BG{
+    /*position: absolute !important;
+    top: -10px;
+    left: -28px;
+    width: 1000px;
+    height: 550px;
+    background: url(service_station.png) no-repeat;
+    background-size: 100% auto;
+    background-position: 0 0;*/
+
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 1000px;
+    height: 620px !important;
+    background: url(automotive_shop.png) no-repeat;
+    background-size: 103%;
+    z-index: 1;
+
+   /* automotive_shop*/
+}
+
+#divActivity1_2{
+    position: absolute !important;
+    top: -30px;
+    left: -29px;
+    width: 1000px;
+    height: 600px;
+    background-color: #000;
+}
+
+.noConnectors{
+    background: url(dashboard_BCM_noconnectors.jpg) no-repeat;
+    /*background-size: 100% auto;*/
+    background-position: 0 0;
+    background-color: #000;
+}
+
+.withConnectors{
+    background: url(dashboard_BCM_connectors.jpg) no-repeat;
+    /*background-size: 100% auto;*/
+    background-position: 0 0;
+    background-color: #000;
+}
+
+.partsDepartmentTemp{
+    background: url(parts_department_BCMs.jpg) no-repeat;
+    background-size: 100% auto;
+    background-position: 0 0;
+}
+
+#bcmConnector{
+    background: url(BCM_Connector.png);
+    height: 200px;
+    width: 400px;
+    z-index: 5000;
+    position: absolute;
+    top: 170px;
+    left: 0px;
+    background-size: 325px 150px;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#tmpBCMHotspot{
+    background: transparent;
+    height: 50px;
+    width: 130px;
+     z-index: 5000; 
+    position: absolute;
+    top: 210px;
+    left: 150px;
+    background-size: cover;
+    display: none;
+}
+
+.bcmWithoutConnectors{
+    background: url(dashboard_BCM_connectors.png);
+    height: 200px;
+    width: 400px;
+    /* z-index: 5000; */
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    background-size: cover;
+    display: none;
+}
+
+
+
+#bcmHandle{
+    background-color: transparent;
+    z-index: 5000;
+    position: absolute;
+    background-size: cover;
+    width: 220px;
+    right: auto;
+    height: 50px;
+    bottom: auto;
+    left: 20px;
+    top: 165px;
+}
+
+#bcmVoid{
+    z-index: 5000;
+    position: absolute;
+    background-size: cover;
+    width: 212px;
+    right: auto;
+    height: 50px;
+    bottom: auto;
+    left: 25px;
+    top: 165px;
+    background-color: #000000;
+    display:none;
+}
+
+#bcmNoConnectors{
+    background: url(no_connectors.jpg);
+    background-repeat: no-repeat;
+    /*border-color: red;*/
+    top: 161px;
+    left: 22px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display:none;
+}
+
+.highlight {
+	background: transparent;
+	border-radius: 40px;
+	border: 3px solid yellow;
+	box-shadow: 0px 0px 27px #FFEB3B;
+
+	
+	-webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.highlight-square {
+	background: transparent;
+
+	border: 3px solid yellow;
+	box-shadow: 0px 0px 27px #FFEB3B;
+
+	
+	-webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#imgBlueCarRearView{
+    /*position: absolute !important;
+    width: 790px;
+    left: 115px;
+    top: 42px;
+    height: 560px;
+    background: url(bgCar_V2.png);
+    background-size: 100% 100% !important;*/
+
+    position: absolute;
+    height: 450px;
+    width: auto;
+    top: 95px;
+    left: -15px;
+}
+
+#btnContinueToNextTask{
+    position: relative;
+    margin: 425px 790px;
+    background: url(continue.png);
+    background-size: 100% 100%;
+    display: none;
+    cursor: pointer;
+    width: 150px;
+    height: 32px;
+    z-index:1000;
+    display:block;
+}
+
+#btnContinueToNextTask:active{
+	background: url(continue_over.png);
+	background-size: 100% 100%;
+}

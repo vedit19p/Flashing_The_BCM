@@ -1,0 +1,167 @@
+
+<!-- <!doctype html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>View7</title>
+<link rel="stylesheet" type="text/css" href="view7.css">
+</head>
+
+<body> -->
+
+<div id="activity2-view7">    
+    <div class="scanner-container">
+        <div id="scanToolConnector"></div>
+        <div class="scanner-menu text1">
+            <div class="dlcMenuTitle">Service Programming System (SPS)</div>
+            <p class="dlcMenu1">FQ: Request info.</p>
+            <p class="dlcMenu2">ECU to be programmed must be installed before request info.</p>
+            <p class="dlcMenu3">Request info is complete. Connect to the PC.</p>
+        </div>
+        <div class="scanner-menu text2">
+            <div class="dlcMenuTitle">Service Programming System (SPS)</div>
+            <p class="dlcMenu1">VIN Number: 1G1VS56D192123456</p>
+            <br><br>
+            <p class="dlcMenu2">Software: 16269904</p>
+            <br><br>
+            <p class="dlcMenu3">BCM Number: 18436572</p>
+        </div>
+        <div class="usb-logo"></div>
+        <div id="powerButtGreen_V7" style="display: block;"></div>
+
+    </div>
+    <div id="dlcConnector"></div>
+    <svg class="wire" id="fixedWireContainer">
+        <path d="M361,412 Q516,563 242,10" id="fixedWire" fill="transparent" stroke="#000" stroke-width="10px"></path>
+    </svg>
+    <div class="scanner-connection"></div>
+    <svg class="wire" id="positiveWireContainer">
+        <path d="M470,555 Q295,695 440,330" fill="transparent" stroke="#000" stroke-width="6px"></path>
+    </svg>
+
+
+
+    <!------------------------- Task-1-------------------------------->
+    <div id="module" class="screen-content">
+        <div class="hd-title">
+            <div class="vehno">Vehicle Identification Number (VIN)</div>
+            <div id="vipno">1G1VS56D192123456</div>
+        </div>
+        <div class="section1">
+            <div id="sectionHead">Select Module</div>
+            <div id="bcm" class="trFix correctSel">
+                <p class="tdclass">BCM     <span id="spanid">Body Control Module</span></p>
+            </div>
+            <div id="bcm" class="trFix wrongaud">
+                <p class="tdclass1">EBCM     <span id="spanid2">Electronic Brake Control Module</span></p>
+            </div>
+            <div id="bcm" class="trFix wrongaud">
+                <p class="tdclass">IPC     <span id="spanid3">Instrument Panel Cluster</span></p>
+            </div>
+            <div id="bcm" class="trFix wrongaud">
+                <p class="tdclass">ECM     <span id="spanid4">Engine Control Module</span></p>
+            </div>
+            <div id="bcm" class="trFix wrongaud">
+                <p class="tdclass">TCM     <span id="spanid5">Transmission Control Module</span></p>
+            </div>
+            <div id="bcm" class="trFix wrongaud">
+                <p class="tdclass">VDT     <span id="spanid6">Vehicle Theft Deterrent</span></p>
+            </div>
+        </div>
+        <div class="section2">
+            <div id="secContent" style="display:none;">
+                <table>
+                    <tbody>
+                        <tr class="trFix">
+                            <td>BCM</td>
+                            <td class="tdclass">Body Control Module</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="laptop-connection"></div>
+
+    <!------------------------- Task-2-------------------------------->
+    <div id="calibration" style="display:none;">
+        <div class="screen-content">
+            <div id="calSelect">
+                <div id="callHeaderBlock">
+                    <div id="calHead">Calibration Selection</div>
+                    <div id="partDrop">
+                        <div id="partNo">Module Part Number</div>
+                        <select name="list4" id="selectFix2">
+                            <option>Please Select</option>
+                            <option value="111111" name="11111" class="mpmcls">18436572</option>
+                            <option value="222222" class="mpmcls">15426378</option>
+                            <option value="333333" name="333333" class="mpmcls">23645901</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="section3" style="visibility: hidden;">
+                    <ul>
+                        <li class=wrongaud>18269904</li>
+                        <li class="correctSel">16269904</li>
+                        <li class="wrongaud">14269901</li>
+                        <li class="wrongaud">12269903</li>
+                        <li class="wrongaud">17269905</li>
+                    </ul>
+                </div>
+                  <div class="section3a" style="display:none;">
+                    <ul>
+                        <li class="wrongaud">18269904</li>
+                        <li class="wrongaud">16269904</li>
+                        <li class="wrongaud">14269901</li>
+                        <li class="wrongaud">12269903</li>
+                        <li class="wrongaud">17269905</li>
+                    </ul>
+                </div>
+
+                <div class="section4">
+                    <div id="orgPgm" style="display:none;">
+                        <ul>
+                            <li>Original Program for 16269904</li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="backBtn" disabled="disabled" style="margin-left: 0px;">Back</button>
+                <button class="nextBtn" disabled>Next</button>
+            </div>
+        </div>
+    </div>
+    <!------------------------- Task-3-------------------------------->
+    <div id=progress style="display:none;">
+        <div class="screen-content" id="DivLst">
+            <div id="c3Block">
+                <div class="section5">
+                    <img src="activities/activity_2/images/dowloadBg.png" pagespeed_url_hash="1344837782">
+                </div>
+                <div class="section6">
+                    <p>Software download and programming complete.</p>
+                    <p>Cycle the ignition OFF and then back ON</p>
+                    <div class="myProgress">
+                        <div id="myBar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="backBtn" disabled="disabled">Back</button>
+            <button id="nextProgress" style="display:none;" onclick="move(event)" style="width:80px">Next</button>
+            <button class="nextBtn" style="display:none;" onclick="move(event)" disabled>Next</button>
+            <button class="nextBtnAssessment" style="display:none;">Next</button>
+        </div>
+    </div>
+
+   
+</div>
+
+<!-- </body>
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="view7.js"></script>
+</html> -->
+

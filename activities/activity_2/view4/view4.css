@@ -1,0 +1,282 @@
+/*
+#mainContainer {
+    background: #ededed none repeat scroll 0 0;
+    height: 580px;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1000px;
+}
+*/
+#carBg {
+    background: rgba(0, 0, 0, 0) url("assets/BCM_V2_1.jpg") repeat scroll 0 0 / 100% 100%;
+    height: 580px;
+    left: 0;
+    position: absolute;
+    width: 1000px;
+}
+
+#showToolTray {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    cursor: hand;
+    z-index: 5;
+}
+
+#tooltray {
+    background: rgba(0, 0, 0, 0) url("assets/tooltray.png") repeat scroll 0 0 / 105% 100%;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    bottom: 0;
+    box-shadow: 3px 3px 10px;
+    height: 470px;
+    margin: auto;
+    position: absolute;
+    right: -180px;
+    display: none;
+    top: 10px;
+    width: 170px;
+    z-index: 6;
+}
+
+#tooltray div{
+    margin-left: 11px;
+}
+
+
+#viewFour #scanToolDLc {
+  background:url("assets/scanToolDLc.png") 0px 0 / 100% 100% repeat scroll rgba(0, 0, 0, 0);
+  cursor:default;
+  height:420px;
+  left:425px;
+  position:absolute;
+  top:71px;
+  width:550px;
+  z-index:4;
+}
+
+#viewFour #scanToolScreen {
+    background-color: #280aff;
+    font-family: arial;
+    font-size: 10px;
+    height: 196px;
+    margin-left: 103px;
+    margin-top: 120px;
+    width: 298px;
+}
+#viewFour .usb-logo {
+    position: absolute;
+    top: 287px;
+    left: 462px;
+    width: 40px;
+    height: 25px;
+    background: url(../usb-logo.png);
+    background-size: 100% 100%;
+    z-index: 2;
+    cursor: pointer;
+}
+#viewFour .wire {
+    display: block;
+    height: 500px;
+    left: 105px;
+    position: absolute;
+    top: 59px;
+    width: 940px;
+    z-index: 2;
+}
+
+
+#viewFour #pin {
+    background: rgba(0, 0, 0, 0) url("assets/DLC connector.png") repeat scroll 0 0 / 100% 100%;
+    height: 92px;
+    left: 310px;
+    position: absolute;
+    top: 289px;
+    width: 100px;
+    z-index: 4;
+}
+
+#viewFour #DLC {
+    height: 150px;
+    left: 270px;
+    position: absolute;
+    top: 235px;
+    width: 150px;
+}
+
+#viewFour .blockHead1 {
+    border-bottom: 1px solid white;
+    color: white;
+    cursor: default;
+    font-size: 14px;
+    left: 0;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+    text-align: center;
+    top: 4px;
+    z-index: 9999;
+    padding-top: 5px;
+}
+
+#viewFour #scanToolScreen p {
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 30.5px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+
+#viewFour #modelYear p {
+    line-height: 17px;
+}
+
+#viewFour #hintHighlight1 {
+   height: 20px;
+    margin-left: 21px;
+    margin-top: -27px;
+    position: absolute;
+    width: 250px;
+}
+#viewFour #hintHighlight2 {
+    height: 20px;
+    margin-left: 21px;
+    margin-top: -27px;
+    position: absolute;
+    width: 250px;
+}
+#viewFour #hintHighlight3 {
+    height: 20px;
+    margin-left: 21px;
+    margin-top: -27px;
+    position: absolute;
+    width: 250px;
+}
+#viewFour #hintHighlight4 {
+    height: 20px;
+    margin-left: 21px;
+    margin-top: -21px;
+    position: absolute;
+    width: 250px;
+}
+
+
+#viewFour .hintHighlight {
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: blinker;
+    animation-timing-function: linear;
+    background: transparent none repeat scroll 0 0;
+    border: 3px solid yellow;
+    box-shadow: 0 0 27px #ffeb3b;
+    display: block;
+}
+@keyframes blinker {
+0% {
+    opacity: 1;
+}
+50% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+@keyframes blinker {
+0% {
+    opacity: 1;
+}
+50% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+@keyframes blinker {
+0% {
+    opacity: 1;
+}
+50% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+
+#viewFour #scanToolDLc {
+    position: absolute !important;
+    top: 170px;
+    left: 440px;
+    width: 550px;
+    height: 340px;
+    background: url(../scanToolDLC_v3.png);
+    background-size: 100% 100% !important;
+    z-index: 5;
+    cursor: pointer;
+}
+#viewFour #scanToolConnector {
+    position: relative;
+    margin-top: -72px;
+    margin-left: 232px;
+    width: 86px;
+    height: 82px;
+    background: url(../scan_tool_connector.png);
+    background-size: 100% 100% !important;
+    z-index: 7;
+}
+#viewFour #scanToolScreen {
+	width: 320px;
+	height: 228px;
+	margin-top: 33px;
+    margin-left: 114px;
+}
+#dlcConnector {
+    position: absolute;
+    top: 250px;
+    left: 290px;
+    width: 220px;
+    height: 120px;
+    background: transparent;
+}
+#viewFour .wire {
+    display: none;
+    position: absolute;
+    top: 27px;
+    left: 106px;
+    width: 940px;
+    height: 545px;
+    z-index: 3;
+}
+#viewFour #pin {
+    display: block;
+    position: absolute;
+    top: 289px;
+    left: 310px;
+	right: auto;
+	bottom: auto;
+    width: 110px;
+    height: 120px;
+    background: url(../dlc_connector_v2.png);
+    background-size: 100% 100%;
+    z-index: 4;
+    cursor: pointer;
+	transform: rotate(2deg);
+}
+
+#powerButtGreen {
+    margin-top: -207px;
+    margin-left: 59px;
+    height: 61px;
+    background: url(../images/powButGreen.png);
+    z-index: 100;
+    background-size: 46px 49px;
+    background-repeat: no-repeat;
+}

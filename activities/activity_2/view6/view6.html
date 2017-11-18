@@ -1,0 +1,83 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="view6.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="view6.js"></script>
+</head>
+<body>-->
+
+	<div id="activity2-view6">
+    	<div class="scanner-container">
+        	<div id="scanToolConnector"></div>
+            <div class="scanner-menu">
+            	<div class="dlcMenuTitle">Service Programming System (SPS)</div>
+            	<p class="dlcMenu1">FQ: Request info.</p>
+            	<p class="dlcMenu2">ECU to be programmed must be installed before request info.</p>
+            	<p class="dlcMenu3">Request info is complete. Connect to the PC.</p>
+            </div>
+            <div class="usb-logo"></div>
+            <div id="powerButtGreen_V6" style="display: block;"></div>
+        </div>
+        <div id="dlcConnector"></div>
+        <svg class="wire" id="fixedWireContainer">
+			<path d="M361,412 Q516,563 242,10" id="fixedWire" fill="transparent" stroke="#000" stroke-width="10px"></path>
+		</svg>
+        <div class="scanner-connection"></div>
+        <svg class="wire" id="positiveWireContainer">
+			<path d="M470,560 Q295,695 440,330" id="positiveWire" fill="transparent" stroke="#000" stroke-width="6px"></path>
+        </svg>
+        <!-- <div class="laptop-container"> -->
+        	<div id="section1" class="screen-content">
+            	<div class="dropDownFit">
+                	<select name="list1" id="drop1">
+                    	<option>Year: please select</option>
+                      	<option value="2016" class="wrongValue">2016</option>
+                      	<option value="2015" class="wrongValue">2015</option>
+                      	<option value="2014" class="wrongValue">2014</option>
+                      	<option value="2013" class="wrongValue">2013</option>
+                      	<option value="2012" class="correctValue">2012</option>
+                  	</select>
+            	</div>
+              	<div class="dropDownFit">
+                	<select name="list2" id="drop2" disabled="">
+                    	<option>Make: please select</option>
+                      	<option value="Apollo" class="correctValue" >Apollo</option>
+                      	<option value="Detroit" class="wrongValue">Detroit</option>
+                      	<option value="Gemini" class="wrongValue">Gemini</option>
+                      	<option value="Imagine" class="wrongValue">Imagine</option>
+                      	<option value="Westcoast" class="wrongValue">Westcoast</option>
+                  	</select>
+            	</div>
+              	<div class="dropDownFit">
+                	<select name="list3" id="drop3" disabled="">
+                    	<option>Model: please select</option>
+                      	<option value="IX50" class="correctValue">IX50</option>
+                      	<option value="K900" class="wrongValue">K900</option>
+                      	<option value="LZ60" class="wrongValue">LZ60</option>
+                      	<option value="SR45" class="wrongValue">SR45</option>
+                  	</select>
+            	</div>
+                <div class="dropDownFit">
+              		<select name="list4" id="drop4" disabled="">
+                  		<option>Engine: please select</option>
+                  		<option value="2.514" class="wrongValue">2.514</option>
+                  		<option value="3.9L V6" class="correctValueNextTask">3.9L V6</option>
+                  		<option value="5.2 V8" class="wrongValue">5.2 V8</option>
+              		</select>
+                </div>
+              	<!--button onclick="vehicleDetails()" class="selectButton" disabled="disabled">Select Vehicle</button-->
+          	</div>
+            <div id="section2" class="screen-content" style="display:none;">
+            	<div id="section-title">Vehicle Identification Number (VIN)</div>
+            	<div id="vin-number">
+            		<div>1G1VS56D192123456</div>
+            	</div>
+            </div>
+          </div>
+        <div class="laptop-connection"></div>
+    <!-- </div> -->
+    
+<!--</body>
+</html>-->

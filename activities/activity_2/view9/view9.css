@@ -1,0 +1,104 @@
+#activity2-view9 {
+    position: absolute !important;
+    top: 0px;
+    left: 0px;
+    width: 1000px;
+    height: 580px;
+    background: url('../images/shop_background_elevated.png') 0 0 / 100% 100% no-repeat;
+}
+
+#activity2-view9 .car {
+    position: absolute !important;
+    top: 40px;
+    left: -110px;
+    width: 856px;
+    height: 540px;
+	background: url(../images/car_sprite.png);
+}
+
+#activity2-view9 .car-keys {
+    position: absolute;
+    top: 20px;
+    width: 200px;
+    height: 489px;
+    left: 665px;
+    background: url(../images/switch.png);
+    background-size: 100% 100%;
+    display: block;
+}
+
+.car-keys .lock-btn {
+    position: absolute;
+    left: 75px;
+    top: 58px;
+    width: 30px;
+    height: 25px;
+}
+
+.car-keys .open-btn {
+    position: absolute;
+    left: 120px;
+    top: 58px;
+    width: 34px;
+    height: 25px;
+}
+
+.car-keys .trunk-btn {
+    position: absolute;
+    left: 98px;
+    top: 105px;
+    width: 33px;
+    height: 26px;
+}
+
+.car-keys .panic-btn {
+    position: absolute;
+    left: 100px;
+    top: 152px;
+    width: 28px;
+    height: 16px;
+}
+
+.open-trunk {
+    animation: imageChange 1s steps(20) forwards;
+}
+
+@-webkit-keyframes imageChange
+{
+    to {background-position: 0 -12600px;}
+}
+@-moz-keyframes imageChange
+{
+    to {background-position: 0 -12600px;}
+}
+@-ms-keyframes imageChange
+{
+    to {background-position: 0 -12600px;}
+}
+@keyframes imageChange
+{
+    to {background-position: 0 -12600px;}
+}
+
+.highlight {
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: blinker;
+    animation-timing-function: linear;
+    background: transparent none repeat scroll 0 0;
+    border: 3px solid yellow;
+    box-shadow: 0 0 27px #ffeb3b;
+    border-radius: 0 !important;
+    display: block;
+}
+@keyframes blinker {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

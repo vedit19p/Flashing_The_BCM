@@ -1,0 +1,138 @@
+#activity2-view1 {
+    position: absolute !important;
+    top: 0px;
+    left: 0px;
+    width: 1000px;
+    height: 580px;
+    background: url('../images/underhood_with battery_changer.jpg') 0 0 / 100% 100% no-repeat;
+}
+
+#activity2-view1 .positive-lead {
+    position: absolute !important;
+    top: 150px;
+    left: 518px;
+    width: 105px;
+    height: 152px;
+    background: url('../images/clamp red.png');
+    background-size: 100% 100% !important;
+    z-index: 2;
+    transform: rotate(320deg);
+}
+#activity2-view1 .positive-lead.open {
+    background: url('../images/clamp redOpened.png');
+}
+#activity2-view1 .positive-lead .hint {
+    position: absolute !important;
+    top: 5px;
+    left: 44px;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+}
+
+#activity2-view1 .negative-lead {
+    position: absolute !important;
+    top: 25px;
+    left: 550px;
+    width: 105px;
+    height: 152px;
+    background: url('../images/clamp black.png');
+    background-size: 100% 100% !important;
+    z-index: 2;
+    transform: rotate(320deg);
+}
+#activity2-view1 .negative-lead .hint {
+    position: absolute !important;
+    top: 5px;
+    left: 44px;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+}
+
+#activity2-view1 .negative-lead.open {
+    background: url('../images/clamp blackOpened.png');
+}
+
+
+.car-battery {
+    position: absolute !important;
+    top: 280px;
+    left: 65px;
+    width: 250px;
+    height: 150px;
+}
+.positive-pin {
+    position: absolute;
+    top: 55px;
+    width: 55px;
+    height: 50px;
+    left: 5px;
+    z-index: 3;
+}
+.negative-pin {
+    position: absolute;
+    top: 70px;
+    width: 55px;
+    height: 50px;
+    left: 170px;
+    z-index: 3;
+}
+
+.battery-voltage-meter {
+    position: absolute !important;
+    top: 123px;
+    left: 107px;
+    height: 438px;
+    width: 260px;
+    background: url('../images/volt_meter.png') no-repeat 0 0 / 100% 100%;
+}
+
+.battery-lead-connector {
+    z-index: 2;
+    width: 17px;
+    height: 40px;
+    position: absolute;
+    left: 715px;
+    top: 130px;
+}
+
+.positive-wire {
+    position: absolute !important;
+    top: 0px;
+    left: 0px;
+    width: 1000px;
+    height: 580px;
+    z-index: 1;
+}
+.negative-wire {
+    position: absolute !important;
+    top: -13px;
+    left: 2px;
+    width: 1000px;
+    height: 580px;
+    z-index: 1;
+}
+
+.highlight {
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: blinker;
+    animation-timing-function: linear;
+    background: transparent none repeat scroll 0 0;
+    border: 3px solid yellow;
+    box-shadow: 0 0 27px #ffeb3b;
+    border-radius: 0 !important;
+    display: block;
+}
+@keyframes blinker {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
